@@ -1,10 +1,14 @@
 {
   "name": "usagi-placeholder",
-  "version": "0.1.0",
+  "description": "Like JSON Placeholder but it is mofumofu",
+  "version": "1.0.0",
   "private": true,
+  "license": "MIT",
+  "author": "Leomotors",
+  "repository": "https://github.com/Leomotors/usagi-placeholder",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node data.js && next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -14,11 +18,21 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
     "@types/node": "18.0.0",
     "@types/react": "18.0.14",
     "@types/react-dom": "18.0.5",
+    "apollo-server": "^3.9.0",
+    "apollo-server-core": "^3.9.0",
+    "apollo-server-micro": "^3.9.0",
+    "autoprefixer": "^10.4.7",
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
+    "graphql": "^16.5.0",
+    "micro": "^9.3.4",
+    "postcss": "^8.4.14",
+    "sass": "^1.52.3",
+    "tailwindcss": "^3.1.3",
     "typescript": "4.7.3"
   }
 }

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "name": {
+            "en": "Hoto Cocoa",
+            "ja": "保登心愛"
+        },
+        "image": "https://somoskudasai.com/wp-content/uploads/2020/10/portada_gochuumon-10.jpg"
+    },
+    {
+        "id": 1,
+        "name": {
+            "en": "Kafuu Chino",
+            "ja": "香風智乃"
+        },
+        "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png"
+    },
+    {
+        "id": 2,
+        "name": {
+            "en": "Tedeza Rize",
+            "ja": "天々座理世"
+        },
+        "image": "https://i.redd.it/g90zcxysbe361.jpg"
+    },
+    {
+        "id": 3,
+        "name": {
+            "en": "Ujimatsu Chiya",
+            "ja": "宇治松千夜"
+        },
+        "image": "https://thicc.mywaifulist.moe/waifus/665/6c383e9e8476948058a4fe683ed9e9ca8d2ec8fa0cdeb3a2562405e749d652dc_thumb.png"
+    },
+    {
+        "id": 4,
+        "name": {
+            "en": "Kirima Syaro",
+            "ja": "桐間 紗路"
+        },
+        "image": "https://thicc.mywaifulist.moe/waifus/253/b1ae42db07eefd02d75bbe2e527e4930becc490ebf0b236777ddfbbca7d00b18_thumb.png"
+    }
+]

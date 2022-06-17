@@ -1,0 +1,252 @@
+{
+    "Coffee": [
+        {
+            "name": {
+                "en": "Original Blend",
+                "ja": "オリジナルブレンド"
+            },
+            "price": {
+                "jpy": 400,
+                "usd": 3.49
+            }
+        },
+        {
+            "name": {
+                "en": "American Blend",
+                "ja": "アメリカブレンド"
+            },
+            "price": {
+                "jpy": 400,
+                "usd": 3.49
+            }
+        },
+        {
+            "name": {
+                "en": "Iced Coffee",
+                "ja": "アイスコーヒー"
+            },
+            "price": {
+                "jpy": 400,
+                "usd": 3.49
+            }
+        },
+        {
+            "name": {
+                "en": "Hills Coffee",
+                "ja": "ヒルズコーヒー"
+            },
+            "price": {
+                "jpy": 450,
+                "usd": 3.99
+            }
+        },
+        {
+            "name": {
+                "en": "Dutch Coffee",
+                "ja": "ダッチコーヒー"
+            },
+            "price": {
+                "jpy": 450,
+                "usd": 3.99
+            }
+        }
+    ],
+    "Straight Coffee": [
+        {
+            "name": {
+                "en": "Blue Mountain",
+                "ja": "ブルーマウンテン"
+            },
+            "price": {
+                "jpy": 500,
+                "usd": 4.49
+            }
+        },
+        {
+            "name": {
+                "en": "Guatemala Antigua",
+                "ja": "グアテマラアンティグア"
+            },
+            "price": {
+                "jpy": 450,
+                "usd": 3.99
+            }
+        },
+        {
+            "name": {
+                "en": "Kilimanjaro",
+                "ja": "キリマンジャロ"
+            },
+            "price": {
+                "jpy": 500,
+                "usd": 4.49
+            }
+        },
+        {
+            "name": {
+                "en": "Brazil Santos",
+                "ja": "ブラジルサントス"
+            },
+            "price": {
+                "jpy": 450,
+                "usd": 3.99
+            }
+        },
+        {
+            "name": {
+                "en": "Mocha Matari",
+                "ja": "モカマタリ"
+            },
+            "price": {
+                "jpy": 500,
+                "usd": 4.49
+            }
+        },
+        {
+            "name": {
+                "en": "Columbia Supremo",
+                "ja": "コロンビアシュプレモ"
+            },
+            "price": {
+                "jpy": 450,
+                "usd": 3.99
+            }
+        },
+        {
+            "name": {
+                "en": "Mandheling Kalosi",
+                "ja": "マンデリングカロシ"
+            },
+            "price": {
+                "jpy": 500,
+                "usd": 4.49
+            }
+        }
+    ],
+    "Arrange Coffee": [
+        {
+            "name": {
+                "en": "Cafe Au Lait",
+                "ja": "カフェオールイーター"
+            },
+            "price": {
+                "jpy": 420,
+                "usd": 3.75
+            }
+        },
+        {
+            "name": {
+                "en": "Cafe Latte",
+                "ja": "カフェラテ"
+            },
+            "price": {
+                "jpy": 420,
+                "usd": 3.75
+            }
+        },
+        {
+            "name": {
+                "en": "Veinnese",
+                "ja": "ベイニンセ"
+            },
+            "price": {
+                "jpy": 450,
+                "usd": 3.99
+            }
+        },
+        {
+            "name": {
+                "en": "Cappuccino",
+                "ja": "カプチーノ"
+            },
+            "price": {
+                "jpy": 500,
+                "usd": 4.49
+            }
+        },
+        {
+            "name": {
+                "en": "Mochaccino",
+                "ja": "モカチーノ"
+            },
+            "price": {
+                "jpy": 500,
+                "usd": 4.49
+            }
+        }
+    ],
+    "Other Drink": [
+        {
+            "name": {
+                "en": "Japanese Tea",
+                "ja": "日本茶"
+            },
+            "price": {
+                "jpy": 400,
+                "usd": 3.49
+            }
+        },
+        {
+            "name": {
+                "en": "Lemon Tea",
+                "ja": "レモンティー"
+            },
+            "price": {
+                "jpy": 400,
+                "usd": 3.49
+            }
+        },
+        {
+            "name": {
+                "en": "Milk Tea",
+                "ja": "ミルクティー"
+            },
+            "price": {
+                "jpy": 400,
+                "usd": 3.49
+            }
+        }
+    ],
+    "Food Menu": [
+        {
+            "name": {
+                "en": "Sandwich",
+                "ja": "サンドイッチ"
+            },
+            "price": {
+                "jpy": 700,
+                "usd": 6.49
+            }
+        },
+        {
+            "name": {
+                "en": "Naporitan",
+                "ja": "ナポリタン"
+            },
+            "price": {
+                "jpy": 650,
+                "usd": 5.99
+            }
+        },
+        {
+            "name": {
+                "en": "Pancake",
+                "ja": "パンケーキ"
+            },
+            "price": {
+                "jpy": 600,
+                "usd": 5.49
+            }
+        },
+        {
+            "name": {
+                "en": "Cake",
+                "ja": "ケーキ"
+            },
+            "price": {
+                "jpy": 500,
+                "usd": 4.49
+            }
+        }
+    ]
+}

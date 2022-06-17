@@ -1,0 +1,104 @@
+{
+    "Drink Menu": [
+        {
+            "name": {
+                "en": "Rosemary",
+                "ja": "ローズマリー"
+            },
+            "price": {
+                "jpy": 420,
+                "usd": 3.59
+            }
+        },
+        {
+            "name": {
+                "en": "Common Sage",
+                "ja": "コモンセージ"
+            },
+            "price": {
+                "jpy": 420,
+                "usd": 3.59
+            }
+        },
+        {
+            "name": {
+                "en": "Lemon Grass",
+                "ja": "レモングラス"
+            },
+            "price": {
+                "jpy": 400,
+                "usd": 3.49
+            }
+        },
+        {
+            "name": {
+                "en": "Peppermint",
+                "ja": "ペパーミント"
+            },
+            "price": {
+                "jpy": 420,
+                "usd": 3.59
+            }
+        },
+        {
+            "name": {
+                "en": "Rose Red",
+                "ja": "ローズレッド"
+            },
+            "price": {
+                "jpy": 520,
+                "usd": 4.49
+            }
+        },
+        {
+            "name": {
+                "en": "Jasmine",
+                "ja": "ジャスミン"
+            },
+            "price": {
+                "jpy": 520,
+                "usd": 4.49
+            }
+        },
+        {
+            "name": {
+                "en": "Linden Flower",
+                "ja": "リンデンフラワー"
+            },
+            "price": {
+                "jpy": 520,
+                "usd": 4.49
+            }
+        },
+        {
+            "name": {
+                "en": "Chamomile",
+                "ja": "カモミール"
+            },
+            "price": {
+                "jpy": 420,
+                "usd": 3.59
+            }
+        },
+        {
+            "name": {
+                "en": "Lavender",
+                "ja": "ラベンダー"
+            },
+            "price": {
+                "jpy": 420,
+                "usd": 3.59
+            }
+        },
+        {
+            "name": {
+                "en": "Gymnema Sylvestre",
+                "ja": "ギムネマ・シルベスター"
+            },
+            "price": {
+                "jpy": -1,
+                "usd": -1
+            }
+        }
+    ]
+}
