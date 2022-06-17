@@ -13,25 +13,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@saeris/apollo-server-vercel": "^1.0.1",
     "next": "12.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "graphql": "15"
   },
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
-    "@types/micro-cors": "^0.1.2",
     "@types/node": "18.0.0",
     "@types/react": "18.0.14",
     "@types/react-dom": "18.0.5",
-    "apollo-server": "^3.9.0",
     "apollo-server-core": "^3.9.0",
-    "apollo-server-micro": "^3.9.0",
     "autoprefixer": "^10.4.7",
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
-    "graphql": "^16.5.0",
-    "micro": "^9.3.4",
-    "micro-cors": "^0.1.1",
     "postcss": "^8.4.14",
     "sass": "^1.52.3",
     "tailwindcss": "^3.1.3",

@@ -1,8 +1,6 @@
-import { gql, ApolloServer } from "apollo-server-micro";
-import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-core";
-import type { PageConfig } from "next";
+import { gql } from "apollo-server-core";
+import { ApolloServer } from "@saeris/apollo-server-vercel";
 import type { IExecutableSchemaDefinition } from "@graphql-tools/schema";
-import Cors from "micro-cors";
 
 import usagis from "data/usagis.json";
 import menus from "data/menus.g.json";
@@ -58,26 +56,11 @@ const resolvers: IExecutableSchemaDefinition["resolvers"] = {
 
 const apolloServer = new ApolloServer({
   typeDefs,
+  // @ts-ignore
   resolvers,
   csrfPrevention: true,
-  cache: "bounded",
-  plugins: [ApolloServerPluginLandingPageGraphQLPlayground],
+  playground: true,
+  introspection: true,
 });
 
-const startPromise = apolloServer.start();
-
-const cors = Cors();
-
-export default cors(async (req, res) => {
-  await startPromise;
-  await apolloServer.createHandler({
-    path: "/api/graphql",
-  })(req, res);
-});
-
-export const config: PageConfig = {
-  api: {
-    bodyParser: false,
-    externalResolver: true,
-  },
-};
+export default apolloServer.createHandler({ cors: { origin: "*" } });
