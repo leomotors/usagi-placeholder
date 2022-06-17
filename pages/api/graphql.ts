@@ -1,7 +1,8 @@
 import { gql, ApolloServer } from "apollo-server-micro";
 import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-core";
-import type { NextApiRequest, NextApiResponse } from "next";
+import type { PageConfig } from "next";
 import type { IExecutableSchemaDefinition } from "@graphql-tools/schema";
+import Cors from "micro-cors";
 
 import usagis from "data/usagis.json";
 import menus from "data/menus.g.json";
@@ -58,23 +59,25 @@ const resolvers: IExecutableSchemaDefinition["resolvers"] = {
 const apolloServer = new ApolloServer({
   typeDefs,
   resolvers,
+  csrfPrevention: true,
+  cache: "bounded",
   plugins: [ApolloServerPluginLandingPageGraphQLPlayground],
 });
 
 const startPromise = apolloServer.start();
 
-export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
+const cors = Cors();
+
+export default cors(async (req, res) => {
   await startPromise;
   await apolloServer.createHandler({
     path: "/api/graphql",
   })(req, res);
-}
+});
 
-export const config = {
+export const config: PageConfig = {
   api: {
     bodyParser: false,
+    externalResolver: true,
   },
 };
